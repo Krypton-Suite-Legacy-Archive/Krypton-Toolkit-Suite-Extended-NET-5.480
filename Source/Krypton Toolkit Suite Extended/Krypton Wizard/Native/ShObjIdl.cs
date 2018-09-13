@@ -7659,7 +7659,7 @@ namespace KryptonWizard.Native
                 E_ACCESSDENIED = new HRESULT(0x80070005);
                 E_OUTOFMEMORY = new HRESULT(0x8007000e);
                 E_INVALIDARG = new HRESULT(0x80070057);
-                COR_E_OBJECTDISPOSED = new HRESULT(0x8031622);
+                COR_E_OBJECTDISPOSED = new HRESULT(0x80131622);
                 WC_E_GREATERTHAN = new HRESULT(0xc00cee23);
                 WC_E_SYNTAX = new HRESULT(0xc00cee2d);
             }

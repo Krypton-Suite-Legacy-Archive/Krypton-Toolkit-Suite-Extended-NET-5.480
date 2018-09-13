@@ -113,7 +113,7 @@ namespace System.ComponentModel.Design
             }
         }
 
-        [Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA180:ReviewUnusedParameters", MessageId = "d")]
+        [Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA1801:ReviewUnusedParameters", MessageId = "d")]
         public static void RemoveProperties(this ComponentDesigner d, System.Collections.IDictionary properties, IEnumerable<string> propertiesToRemove)
         {
             foreach (string p in propertiesToRemove)

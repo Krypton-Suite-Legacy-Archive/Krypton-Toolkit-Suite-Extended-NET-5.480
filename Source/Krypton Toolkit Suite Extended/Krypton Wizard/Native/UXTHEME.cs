@@ -38,7 +38,7 @@ namespace KryptonWizard.Native
 
         public enum DrawThemeTextSystemFonts
         {
-            Caption = 80,
+            Caption = 801,
             SmallCaption = 802,
             Menu = 803,
             Status = 804,
